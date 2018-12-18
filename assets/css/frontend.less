@@ -1,0 +1,39 @@
+@error-red: #ff0000;
+@warning-yellow: #ffcc33;
+
+#htc-form {
+    display: flex;
+}
+
+input#htc-url {
+    width:70%;
+}
+
+button#htc-analyze {
+    width: 30%;
+}
+
+#htc-results {
+    margin-top: 2rem;
+}
+
+.htc-errors {
+    margin: 1rem;
+    text-align: center;
+    .htc-error-msg {
+        color: @error-red;
+        font-weight: 700;
+        margin: 0;
+    }
+    .htc-warning-msg {
+        color: @warning-yellow;
+        font-weight: 700;
+        margin: 0;
+    }
+
+}
+
+.duplicate-result {
+    background: @warning-yellow;
+}
+

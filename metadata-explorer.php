@@ -22,11 +22,15 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 // Load plugin class files
 require_once( 'includes/class-metadata-explorer.php' );
 require_once( 'includes/class-metadata-explorer-settings.php' );
+require_once( 'includes/class-mde-shortcodes.php' );
 
 // Load plugin libraries
 require_once( 'includes/lib/class-metadata-explorer-admin-api.php' );
 require_once( 'includes/lib/class-metadata-explorer-post-type.php' );
 require_once( 'includes/lib/class-metadata-explorer-taxonomy.php' );
+
+// Load Vendor Libraries
+require __DIR__ . '/vendor/autoload.php';
 
 /**
  * Returns the main instance of Metadata_Explorer to prevent the need to use globals.

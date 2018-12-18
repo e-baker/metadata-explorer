@@ -1,0 +1,6 @@
+{
+    "require": {
+        "paquettg/string-encode": "^0.1.1",
+        "thesoftwarefanatics/php-html-parser": "^1.8"
+    }
+}
